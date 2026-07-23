@@ -37,19 +37,20 @@ Key Objectives:
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump (data_telco_customer_churn.csv).
 │
-├── models             <- Trained and serialized models (model_churn_adaboost.pkl)
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-bdp-notebook`.
+├── notebook            <- Jupyter notebooks and serialized model. Notebook naming convention
+│                          is a number (for ordering), the creator's initials, and a short
+│                          `-` delimited description, e.g. `1.0-bdp-notebook`.
+│   └── model_churn_adaboost.pkl  <- Trained and serialized final model.
 │
 ├── references          <- Data dictionaries, manuals, and all other explanatory materials
 │                          (external_references.txt).
 │
-├── reports             <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures         <- Generated graphics and figures used in reporting (EDA plots, SHAP plots, etc.)
-│
-├── requirements.txt    <- The requirements file for reproducing the analysis environment.
+├── reports             <- Generated analysis as HTML, PDF, and project documentation.
+│   ├── figure          <- Generated graphics and figures used in reporting (EDA plots, SHAP plots, etc.)
+│   ├── slide            <- Presentation slides summarizing the project.
+│   ├── README.md        <- The top-level README for developers using this project.
+│   ├── requirements.txt <- The requirements file for reproducing the analysis environment.
+│   └── *.html            <- Exported HTML version of the analysis notebook.
 │
 └── src                 <- Source code for use in this project.
 ```
