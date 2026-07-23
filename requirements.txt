@@ -1,0 +1,12 @@
+pandas==2.3.3
+numpy==2.3.5
+scikit-learn==1.7.2
+imbalanced-learn==0.14.0
+xgboost
+lightgbm
+shap
+statsmodels
+scipy
+matplotlib
+seaborn
+joblib
