@@ -1,0 +1,34 @@
+External References
+====================
+
+1. Churn Rate Industry Benchmark (Telecommunications)
+   Focus Digital. "Average Churn Rate by Industry."
+   https://focus-digital.co/average-churn-rate-by-industry/
+   Used in: Section 1.1 (Business Understanding - Context), to benchmark the company's
+   historical churn rate (26.69%) against the telecom industry average (~21.5-22%).
+
+2. Customer Retention vs. Acquisition Cost Research
+   Harvard Business Review; Frederick Reichheld (Bain & Company).
+   Used in: Section 1.1 (Business Understanding - Context), regarding the finding that
+   acquiring a new customer typically costs 5-25x more than retaining an existing one.
+
+3. Telecom Customer Retention Program Success Rate (Save Rate) Case Study
+   Qualfon. "Telecom Customer Retention: 160% Improvement."
+   https://www.qualfon.com/resources/case-studies/telecom-customer-retention-160-percent-improvement/
+   Used in: Section 8.3 (Business Calculation), as the basis for the retention program
+   success rate assumption range (10%-40%) used in the business impact simulation.
+
+4. Churn Model Monitoring & Retraining Threshold
+   UK Data Services. "Customer Churn Prediction Guide | Predictive Analytics for UK
+   Businesses." Published 8 June 2025.
+   https://ukdataservices.co.uk/blog/articles/predictive-analytics-customer-churn
+   Used in: Section 1.4 (Business Understanding - Analytical Approach) and Section 9.2
+   (Recommendation - Model), as the basis for the model retraining trigger: ROC-AUC
+   dropping below the 0.75 threshold (churn-model-specific benchmark).
+
+Notes:
+- All figures derived from these external sources are illustrative benchmarks used to
+  contextualize assumptions (e.g., ARPU, retention success rate, monitoring threshold).
+  They should be validated against internal company data (Finance/CRM) before being
+  used as the basis for final business decisions, as noted throughout Section 1.6 and
+  Section 8.3.
